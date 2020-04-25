@@ -1,0 +1,127 @@
+.wrap > div {
+  width: 100%;
+}
+
+.wrap .titleContainer {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding: 20px;
+}
+
+.wrap .titleContainer h2 {
+  margin-bottom: 10px;
+}
+
+.wrap .items {
+  background-color: #FFF;
+  border-radius: 16px 16px 16px 16px;
+  -moz-border-radius: 16px 16px 16px 16px;
+  -webkit-border-radius: 16px 16px 16px 16px;
+  border: 0px solid #000000;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.09);
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.wrap .globalStats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+}
+
+.wrap .globalStats > div {
+  height: 300px;
+}
+
+.wrap .globalStats .div1 {
+  grid-area: 1/1/2/2;
+}
+
+.wrap .globalStats .div2 {
+  grid-area: 1/2/2/3;
+}
+
+.wrap .globalStats .div3 {
+  grid-area: 1/3/2/4;
+}
+
+.wrap .globalStats span {
+  font-size: 3em;
+  color: #2E2E2E;
+}
+
+.wrap .globalCurves .curves {
+  padding: 50px 50px;
+}
+
+.wrap .globalCurves .curves canvas {
+  width: 100%;
+  height: 600px;
+}
+
+.wrap .countriesStats .countriesStat {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.wrap .countriesStats .countriesStat .countriesStat_content {
+  width: 100%;
+  margin: 20px 0;
+  padding: 0 50px;
+  box-sizing: border-box;
+}
+
+.wrap .countriesStats .countriesStat .countriesStat_content .countriesStat_categories {
+  width: 100%;
+  display: flex;
+  padding: 15px 0;
+  box-sizing: border-box;
+  border-bottom: 1px solid #000000;
+}
+
+.wrap .countriesStats .countriesStat .countriesStat_content .countriesStat_categories span {
+  width: 25%;
+  display: block;
+}
+
+.wrap .countriesStats .countriesStat .countriesStat_content .countriesStat_data {
+  width: 100%;
+  padding-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.wrap .countriesStats .countriesStat .countriesStat_content .countriesStat_data div:nth-of-type(2n+1) {
+  background-color: rgba(36, 36, 36, 0.03);
+}
+
+.wrap .countriesStats .countriesStat .countriesStat_content .countriesStat_data div {
+  width: 100%;
+  display: flex;
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+
+.wrap .countriesStats .countriesStat .countriesStat_content .countriesStat_data div span,
+.wrap .countriesStats .countriesStat .countriesStat_content .countriesStat_data div a {
+  width: 25%;
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #000;
+}
+
+.wrap .countriesStats .countriesStat .countriesStat_content .countriesStat_data div span:nth-of-type(1) {
+  color: #6c5ce7;
+}
+

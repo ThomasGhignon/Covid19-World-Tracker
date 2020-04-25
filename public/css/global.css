@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap);/* $color-1: #6c5ce7;
+$color-2: #5946E8;
+$color-3: #E88174;
+$color-4: #E8D246;
+$color-5: #51E89C;
+
+$background: #ecf0f1; */
+
+body {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  background-color: #ecf0f1;
+}
+
+.wrap {
+  max-width: 1440px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 145px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+span {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+p,
+.js-iso {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  opacity: 0.5;
+}
+
+.messageError {
+  position: absolute;
+}
+

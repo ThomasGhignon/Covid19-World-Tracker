@@ -1,0 +1,70 @@
+nav {
+  background-color: #FFF;
+  height: 70px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.09);
+}
+
+nav .wrap {
+  flex-direction: initial;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+nav .wrap > div {
+  width: initial;
+}
+
+nav h1,
+nav input::-webkit-input-placeholder,
+nav h1 {
+  height: 100px;
+  width: 100%;
+  font-size: 18px;
+  background: #5c4ae4;
+  color: white;
+  line-height: 150%;
+  border-radius: 3px 3px 0 0;
+  box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+nav form {
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+nav form h1 {
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+nav input {
+  width: 200px;
+  display: block;
+  border: none;
+  padding: 10px 0;
+  border-bottom: solid 1px #6c5ce7;
+  transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #6c5ce7 4%);
+  background-position: -200px 0;
+  background-size: 200px 100%;
+  background-repeat: no-repeat;
+  color: #2f1cc1;
+}
+
+nav input:focus,
+nav input:valid {
+  box-shadow: none;
+  outline: none;
+  background-position: 0 0;
+}
+
+nav input:focus::-webkit-input-placeholder,
+nav input:valid::-webkit-input-placeholder {
+  color: #6c5ce7;
+  font-size: 11px;
+  transform: translateY(-20px);
+  visibility: visible !important;
+}
+
